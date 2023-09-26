@@ -5,6 +5,13 @@ function Factorial(n)
   {
       return [];
   }
+  if(n>1){
+    if (n%2==0)
+    {
+        primo.push(2);
+        n /= 2;
+    }
+  }
   if (n>1){
     primo.push(n);
   }
