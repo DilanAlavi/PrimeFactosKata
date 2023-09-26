@@ -1,12 +1,12 @@
 function Factorial(n)
 {
-    const primo=[];
+  const primo=[];
   if(n<=1)
   {
       return [];
   }
   if(n>1){
-    if (n%2==0)
+    while (n%2==0)
     {
         primo.push(2);
         n /= 2;

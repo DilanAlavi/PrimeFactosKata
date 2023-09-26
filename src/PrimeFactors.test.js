@@ -24,3 +24,8 @@ describe("Factorial ", () => {
       expect(Factorial(6)).toEqual([2,3]);
     });
   });
+  describe("Factorial ", () => {
+    it("Ingresamos el 8 y nos devuelve el [2,2,2]", () => {
+      expect(Factorial(8)).toEqual([2,2,2]);
+    });
+  });
