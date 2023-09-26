@@ -5,8 +5,13 @@ describe("Factorial ", () => {
     });
   });
   describe("Factorial ", () => {
-    it("ingresamos el numero 2 y nos devuelve el 2", () => {
+    it("Ingresamos el numero 2 y nos devuelve el 2", () => {
       expect(Factorial(2)).toEqual([2]);
+    });
+  });
+  describe("Factorial ", () => {
+    it("Ingresamos un numero y nos devuelve el mismo numero", () => {
+      expect(Factorial(3)).toEqual([3]);
     });
   });
 
